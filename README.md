@@ -91,6 +91,6 @@ Make sure to activate the MySQL database service and set up the Mosquitto broker
 The system follows a modular software architecture. Below is a high-level overview:
 
 <h1 align="center">
-  <img src=".gitlab/assets/software_architecture.png" alt="software_architecture" width="800">
+  <img src=".github/assets/software_architecture.png" alt="software_architecture" width="800">
   <br>
 </h1>
