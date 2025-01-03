@@ -94,3 +94,13 @@ The system follows a modular software architecture. Below is a high-level overvi
   <img src=".github/assets/software_architecture.png" alt="software_architecture" width="800">
   <br>
 </h1>
+
+
+## Hardware Architecture
+
+Below is a high-level overview on the hardware architecture
+
+<h1 align="center">
+  <img src=".github/assets/Hardware_Architecture_Communication.png" alt="hardware_architecture" width="800">
+  <br>
+</h1>
