@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border: 5px solid black; 
+background-color: black;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">border: none;</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true">background:#0F1C1F;
+border: none;</string>
+      </property>
+      <property name="currentIndex">
+       <number>6</number>
+      </property>
+      <widget class="QWidget" name="page_1">
+       <widget class="QLabel" name="htw_logo">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>0</y>
+          <width>661</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/htw-logo.png&quot; width=&quot;550&quot; height=&quot;150&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="tracking_system_logo">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>50</y>
+          <width>481</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/tracking_system_logo.png&quot;width=&quot;350&quot; height=&quot;300&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="tracking_system_text">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>450</y>
+          <width>531</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #E8E8E8;
+font-family:Arial,sans-serif;
+ font-style: italic; 
+font-weight: bold;
+text-decoration: none; 
+font-size: 32pt</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/tracking_system.png&quot;width=&quot;550&quot; height=&quot;100&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="developerLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>650</y>
+          <width>111</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; font-weight:700; color:#ffffff;&quot;&gt;Developed by &lt;br/&gt;Ghassen Jamoussi&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="start_button">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>590</y>
+          <width>171</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #76B800;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #8CD800;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #4A9B00;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(112,112,112);
+    background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Start</string>
+        </property>
+       </widget>
+       <zorder>tracking_system_logo</zorder>
+       <zorder>htw_logo</zorder>
+       <zorder>tracking_system_text</zorder>
+       <zorder>developerLabel</zorder>
+       <zorder>start_button</zorder>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QLabel" name="tracking_system_text_4">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>0</y>
+          <width>541</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #E8E8E8;
+font-family:Arial,sans-serif;
+ font-style: italic; 
+font-weight: bold;
+text-decoration: none; 
+font-size: 32pt</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/tracking_system.png&quot;width=&quot;550&quot; height=&quot;100&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>650</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/htw_logo_2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="back_button_2">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(255, 255, 255);
+    background-color: #404040;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+
+QPushButton:hover {
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(112,0,0);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(51,51,51);
+}
+
+QPushButton:disabled {	
+	border-radius: 5px;	
+	border: 2px solid rgb(112,112,112);
+	background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="home_button">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #76B800;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #8CD800;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #4A9B00;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(112,112,112);
+    background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="output_label">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>390</y>
+          <width>551</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:#156082</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Device: &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Assigned to: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="output_label_2">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>140</y>
+          <width>531</width>
+          <height>179</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">    QLabel {
+        color: #2b8b47;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+    }
+    QFrame {
+        border: 0;
+        border-bottom: 2px solid #707070;
+        width: 80%;
+    }
+</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:35pt;&quot;&gt;Device assigned&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:35pt;&quot;&gt;successfully&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QLabel" name="tracking_system_text_3">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>0</y>
+          <width>541</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #E8E8E8;
+font-family:Arial,sans-serif;
+ font-style: italic; 
+font-weight: bold;
+text-decoration: none; 
+font-size: 32pt</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/tracking_system.png&quot;width=&quot;550&quot; height=&quot;100&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>90</y>
+          <width>571</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/scan_qr_code.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="confirm_button_1">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #76B800;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #8CD800;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #4A9B00;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(51, 51, 51);  /* Same border color but slightly lighter green background */
+    background-color: #557A00;  /* Darker green to indicate disabled state */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Confirm</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="device_label">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>400</y>
+          <width>561</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:#156082</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Display device name here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="back_button_1">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(255, 255, 255);
+    background-color: #404040;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+
+QPushButton:hover {
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(112,0,0);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(51,51,51);
+}
+
+QPushButton:disabled {	
+	border-radius: 5px;	
+	border: 2px solid rgb(112,112,112);
+	background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>650</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/htw_logo_2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_actions">
+       <widget class="QLabel" name="tracking_system_text_5">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>0</y>
+          <width>541</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #E8E8E8;
+font-family:Arial,sans-serif;
+ font-style: italic; 
+font-weight: bold;
+text-decoration: none; 
+font-size: 32pt</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/tracking_system.png&quot;width=&quot;550&quot; height=&quot;100&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>650</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/htw_logo_2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="borrow_button">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>190</y>
+          <width>231</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(255, 255, 255);
+    background-color: #404040;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+
+QPushButton:hover {
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(112,0,0);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(51,51,51);
+}
+
+QPushButton:disabled {	
+	border-radius: 5px;	
+	border: 2px solid rgb(112,112,112);
+	background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Borrow</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="return_button">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>330</y>
+          <width>231</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #76B800;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #8CD800;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #4A9B00;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(112,112,112);
+    background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Return</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="admin_button">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>470</y>
+          <width>231</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #007BFF ;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #66B2FF;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #0056b3;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(112,112,112);
+    background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Admin</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_admin">
+       <widget class="QLabel" name="tracking_system_text_6">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>0</y>
+          <width>541</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #E8E8E8;
+font-family:Arial,sans-serif;
+ font-style: italic; 
+font-weight: bold;
+text-decoration: none; 
+font-size: 32pt</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/tracking_system.png&quot;width=&quot;550&quot; height=&quot;100&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>650</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/htw_logo_2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="home_button_3">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>420</y>
+          <width>271</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #76B800;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #8CD800;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #4A9B00;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(112,112,112);
+    background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="deactivate_alarm">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>250</y>
+          <width>271</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #007BFF ;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #66B2FF;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #0056b3;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(112,112,112);
+    background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Deactivate Alarm</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_password">
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>650</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/htw_logo_2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="tracking_system_text_7">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>541</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #E8E8E8;
+font-family:Arial,sans-serif;
+ font-style: italic; 
+font-weight: bold;
+text-decoration: none; 
+font-size: 32pt</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/tracking_system.png&quot;width=&quot;550&quot; height=&quot;100&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="home_button_2">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>630</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(255, 255, 255);
+    background-color: #404040;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+
+QPushButton:hover {
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(112,0,0);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(51,51,51);
+}
+
+QPushButton:disabled {	
+	border-radius: 5px;	
+	border: 2px solid rgb(112,112,112);
+	background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>90</y>
+          <width>491</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/pass_submit.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>290</y>
+          <width>211</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="password_layout"/>
+       </widget>
+       <widget class="QPushButton" name="admin_submit_button">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>630</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #76B800;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #8CD800;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #4A9B00;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(112,112,112);
+    background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Submit</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QLabel" name="tracking_system_text_2">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>0</y>
+          <width>541</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #E8E8E8;
+font-family:Arial,sans-serif;
+ font-style: italic; 
+font-weight: bold;
+text-decoration: none; 
+font-size: 32pt</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/tracking_system.png&quot;width=&quot;550&quot; height=&quot;100&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>90</y>
+          <width>591</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/scan_your_student_card_using_nfc_scanner.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>650</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/imgs/htw_logo_2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="matriculation_label">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>400</y>
+          <width>551</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:#156082</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Display student name here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="back_button">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(255, 255, 255);
+    background-color: #404040;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+
+QPushButton:hover {
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(112,0,0);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(112,0,0);
+	background-color: rgb(51,51,51);
+}
+
+QPushButton:disabled {	
+	border-radius: 5px;	
+	border: 2px solid rgb(112,112,112);
+	background-color: rgb(112,112,112);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="confirm_button">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: 2px solid rgb(51,51,51);
+    border-radius: 25px;  /* Increased border-radius to make the button more curvy */
+    color: rgb(0, 0, 0);
+    background-color: #76B800;
+    font-family: &quot;Calibri&quot;;
+    font-size: 25px;
+    font-weight: bold;  /* Made the text bold */
+}
+QPushButton:hover {
+    border: 2px solid rgb(51,51,51);
+    background-color: #8CD800;  /* Lighter green for hover */
+}
+QPushButton:pressed {    
+    border: 2px solid rgb(51,51,51);
+    background-color: #4A9B00;  /* Adjusted pressed color to a darker green */
+}
+
+QPushButton:disabled {    
+    border-radius: 25px;  /* Ensure the disabled state also has the same curvy effect */
+    border: 2px solid rgb(51, 51, 51);  /* Same border color but slightly lighter green background */
+    background-color: #557A00;  /* Darker green to indicate disabled state */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Confirm</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="assets/ressources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

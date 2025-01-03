@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="imgs">
+    <file>pass_submit.png</file>
+    <file>assigned_successfull.png</file>
+    <file>scan_qr_code.png</file>
+    <file>htw_logo_2.png</file>
+    <file>scan_your_student_card_using_nfc_scanner.png</file>
+    <file>tracking_system.png</file>
+    <file>tracking_system_logo.png</file>
+    <file>htw-logo.png</file>
+  </qresource>
+</RCC>

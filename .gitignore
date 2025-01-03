@@ -1,0 +1,13 @@
+# Ignore local configuration file
+*.sql
+
+# Ignore unnecessary files
+__pycache__/
+venv/
+gui/
+*.pyc
+*.pyo
+*.log
+.idea/
+.vscode/
+.vs/*
