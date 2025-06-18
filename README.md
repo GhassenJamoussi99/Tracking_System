@@ -1,4 +1,4 @@
-# Masterarbeit Tracking System
+# Tracking System
 
 ## Getting Started
 
